@@ -11,7 +11,9 @@ export GOPATH="$CURDIR"
 
 gofmt -w src
 
-go install service-center 
+go install service-center
+
+go install session-node
 
 export GOPATH="$OLDGOPATH"
 

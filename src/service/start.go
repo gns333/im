@@ -8,6 +8,7 @@ import (
 )
 
 func Start() {
+
 	initEnvironment()
 
 	setRouteMap()

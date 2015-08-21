@@ -9,7 +9,13 @@ CURDIR=`pwd`
 OLDGOPATH="$GOPATH"
 export GOPATH="$CURDIR"
 
-go clean -i -x service-center 
+go clean -i service-center
+
+go clean -i session-node
+
+rm -rf ./bin/
+
+rm -rf ./pkg/
 
 export GOPATH="$OLDGOPATH"
 
